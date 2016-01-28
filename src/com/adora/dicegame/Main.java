@@ -40,11 +40,15 @@ public class Main {
             i++;
         }
 
-        int frequency = die.getFace1() + die.getFace2() + die.getFace3() + die.getFace4() + die.getFace5() + die.getFace6();
+        int freqSum = die.getFace1() + die.getFace2()+ die.getFace3() + die.getFace4() + die.getFace5() + die.getFace6();
 
-        if (frequency != 1000)
-            System.out.println("An error occurred!!");
-
-        System.out.println(die.getPercentage1());
+        System.out.println("Face\t\t\tFrequency\t\t\tPercentage");
+        System.out.println("1\t\t\t\t"+die.getFace1()+"\t\t\t\t\t"+((float)die.getFace1()/10));
+        System.out.println("2\t\t\t\t"+die.getFace2()+"\t\t\t\t\t"+((float)die.getFace2()/10));
+        System.out.println("3\t\t\t\t"+die.getFace3()+"\t\t\t\t\t"+((float)die.getFace3()/10));
+        System.out.println("4\t\t\t\t"+die.getFace4()+"\t\t\t\t\t"+((float)die.getFace4()/10));
+        System.out.println("5\t\t\t\t"+die.getFace5()+"\t\t\t\t\t"+((float)die.getFace5()/10));
+        System.out.println("6\t\t\t\t"+die.getFace6()+"\t\t\t\t\t"+((float)die.getFace6()/10));
+        System.out.println("Total\t\t\t"+freqSum+"\t\t\t\t100");
     }
 }

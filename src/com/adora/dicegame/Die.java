@@ -20,20 +20,12 @@ public class Die {
         return face1;
     }
 
-    public float getPercentage1(){
-        return ((face1/1000) * 100);
-    }
-
     public void setFace2(int face2) {
         this.face2 = face2;
     }
 
     public int getFace2() {
         return face2;
-    }
-
-    public float getPercentage2(){
-        return ((face2/1000) * 100);
     }
 
     public void setFace3(int face3) {
@@ -44,20 +36,12 @@ public class Die {
         return face3;
     }
 
-    public float getPercentage3(){
-        return ((face3/1000) * 100);
-    }
-
     public void setFace4(int face4) {
         this.face4 = face4;
     }
 
     public int getFace4() {
         return face4;
-    }
-
-    public float getPercentage4(){
-        return ((face4/1000) * 100);
     }
 
     public void setFace5(int face5) {
@@ -68,20 +52,12 @@ public class Die {
         return face5;
     }
 
-    public float getPercentage5(){
-        return ((face5/1000) * 100);
-    }
-
     public void setFace6(int face6) {
         this.face6 = face6;
     }
 
     public int getFace6() {
         return face6;
-    }
-
-    public float getPercentage6(){
-        return ((face6/1000) * 100);
     }
 
 }
