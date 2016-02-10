@@ -56,8 +56,6 @@ public class Die {
         this.face6 = face6;
     }
 
-    public int getFace6() {
-        return face6;
-    }
+    public int getFace6() { return face6; }
 
 }
